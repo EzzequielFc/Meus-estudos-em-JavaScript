@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1{
+    text-align: center;
+    margin: 30px;
+    text-transform: uppercase;
+}
+
+.zack{
+    color: purple;
+}
+
+.container {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.piano_body {
+    border: 1px solid black;
+    width: auto;
+    height: 30vh;
+    display: flex;
+    text-align: center;
+}
+
+.white_keys{
+    box-shadow: 1px 1px 7px black;
+    border: 1px solid black;
+    height: auto;
+    width: 70px;
+}
+.white_keys:hover{
+    cursor: pointer;
+}
+
+.white_keys:active{
+    color: purple;
+    border: 2px solid purple;
+    box-shadow: none;
+}
